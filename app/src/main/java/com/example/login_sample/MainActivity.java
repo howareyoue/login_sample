@@ -23,13 +23,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,koreafoodActivity.class);
+                startActivity(intent);
             }
         });
         chinaButton = findViewById(R.id.china);
         chinaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, chinafoodActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -37,14 +39,16 @@ public class MainActivity extends AppCompatActivity {
         japanbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this, japanfoodActivity.class);
+                startActivity(intent);
             }
         });
         usabutton=findViewById(R.id.usa);
         usabutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(MainActivity.this,usafoodActivity.class);
+                startActivity(intent);
             }
         });
     }
