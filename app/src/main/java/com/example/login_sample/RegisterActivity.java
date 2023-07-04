@@ -3,6 +3,7 @@ package com.example.login_sample;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -56,6 +57,8 @@ public class RegisterActivity extends AppCompatActivity {
                             mDatabaseRef.child("UserAccoune").child(firebaseUser.getUid()).setValue(account);
 
                             Toast.makeText(RegisterActivity.this, "회원가입에 성공하셨습니다.", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(RegisterActivity.this, loginActivity.class);
+                            startActivity(intent);
 
                         }
                         else {
