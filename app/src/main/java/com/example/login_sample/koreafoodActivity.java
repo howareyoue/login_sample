@@ -26,6 +26,13 @@ public class koreafoodActivity extends AppCompatActivity {
         adapter.addItem(new koreaItem("비빔밥",R.drawable.koreafood1));
         adapter.addItem(new koreaItem("떡국",R.drawable.koreafood2));
         adapter.addItem(new koreaItem("불고기",R.drawable.koreafood3));
+        adapter.addItem(new koreaItem("떡갈비",R.drawable.koreafood4));
+        adapter.addItem(new koreaItem("삼겹살",R.drawable.koreafood5));
+        adapter.addItem(new koreaItem("잡채",R.drawable.koreafood6));
+        adapter.addItem(new koreaItem("된장찌개",R.drawable.koreafood7));
+        adapter.addItem(new koreaItem("삼계탕",R.drawable.koreafood8));
+        adapter.addItem(new koreaItem("육회",R.drawable.koreafood9));
+        adapter.addItem(new koreaItem("떡볶이",R.drawable.koreafood10));
         listView.setAdapter(adapter);
     }
 

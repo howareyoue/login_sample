@@ -24,6 +24,14 @@ public class chinafoodActivity extends AppCompatActivity {
         adapter.addItem(new chinaItem("짬뽕",R.drawable.chinafood1));
         adapter.addItem(new chinaItem("볶음밥",R.drawable.chinafood2));
         adapter.addItem(new chinaItem("탕수육",R.drawable.chinafood3));
+        adapter.addItem(new chinaItem("토마토 계란 볶음면",R.drawable.chinafood4));
+        adapter.addItem(new chinaItem("냉짬뽕",R.drawable.chinafood5));
+        adapter.addItem(new chinaItem("마파두부",R.drawable.chinafood6));
+        adapter.addItem(new chinaItem("꿔바로우",R.drawable.chinafood7));
+        adapter.addItem(new chinaItem("유림기",R.drawable.chinafood8));
+        adapter.addItem(new chinaItem("우육탕면",R.drawable.chinafood9));
+        adapter.addItem(new chinaItem("해파리냉채",R.drawable.chinafood10));
+
         listView.setAdapter(adapter);
     }
 
