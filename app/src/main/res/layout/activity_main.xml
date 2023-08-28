@@ -20,10 +20,12 @@
 
     <Button
         android:id="@+id/usa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="72dp"
+        android:backgroundTint="#E1CEB2"
         android:text="양식"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/china"
@@ -31,9 +33,11 @@
 
     <Button
         android:id="@+id/japan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#EFEFEF"
         android:text="일식"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/usa"
         app:layout_constraintHorizontal_bias="0.515"
@@ -43,9 +47,10 @@
 
     <Button
         android:id="@+id/china"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="72dp"
+        android:backgroundTint="#C5281D"
         android:text="중식"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,8 +59,9 @@
 
     <Button
         android:id="@+id/korea"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#318E34"
         android:text="한식"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/china"
