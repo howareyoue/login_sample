@@ -31,6 +31,11 @@ public class japanfoodActivity extends AppCompatActivity {
         adapter.addItem(new japanItem("라멘",R.drawable.japanfood8));
         adapter.addItem(new japanItem("나베",R.drawable.japanfood9));
         adapter.addItem(new japanItem("야키토리",R.drawable.japanfood10));
+        adapter.addItem(new japanItem("알밥",R.drawable.japanfood11));
+        adapter.addItem(new japanItem("메밀소바",R.drawable.japanfood12));
+        adapter.addItem(new japanItem("마끼",R.drawable.japanfood13));
+        adapter.addItem(new japanItem("김초밥",R.drawable.japanfood14));
+        adapter.addItem(new japanItem("오시즈시",R.drawable.japanfood15));
         listView.setAdapter(adapter);
     }
 

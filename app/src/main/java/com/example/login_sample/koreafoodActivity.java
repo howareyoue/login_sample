@@ -33,6 +33,11 @@ public class koreafoodActivity extends AppCompatActivity {
         adapter.addItem(new koreaItem("삼계탕",R.drawable.koreafood8));
         adapter.addItem(new koreaItem("육회",R.drawable.koreafood9));
         adapter.addItem(new koreaItem("떡볶이",R.drawable.koreafood10));
+        adapter.addItem(new koreaItem("쪽갈비",R.drawable.koreafood11));
+        adapter.addItem(new koreaItem("참치찌개",R.drawable.koreafood12));
+        adapter.addItem(new koreaItem("갈비찜",R.drawable.koreafood13));
+        adapter.addItem(new koreaItem("김치전",R.drawable.koreafood14));
+        adapter.addItem(new koreaItem("갈비탕",R.drawable.koreafood15));
         listView.setAdapter(adapter);
     }
 
